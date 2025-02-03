@@ -1,0 +1,12 @@
+# ignore all .a or .o files
+*.[oa]
+*~
+
+# but do track lib.a, even thogh you're irgnoring .a files above
+!lib.a
+
+# only ignore TODO in the current directory
+/TODO
+
+# ignore all files in any directory named build
+build/
